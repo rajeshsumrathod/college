@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    min-width: 80%;
+
+    padding: 34px;
+    margin: 27px;
+
+
+}
+.container h1,p{
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+h1{
+    color:red;
+    
+}
+input, textarea{
+    margin: 27px 0px;
+    padding: 7px;
+    width: 80%;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 12px;
+    outline: none;
+    display:block;
+    
+}
+p{
+    font-size: 17px;
+    color: slateblue;
+}
+.btn{
+    padding: 8px 12px;
+    color: white;
+    background: purple;
+    font-size: 20px;
+    border-radius: 14px;
+    cursor: pointer;
+
+}
+.bj{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.9;
+}
+.subform{
+    font-size: 25px;
+    color: blue;
+    
+}
